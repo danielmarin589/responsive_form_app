@@ -26,7 +26,7 @@ class AppStrings {
   static const String selectADate = 'Tap to select a date';
   static const String getStarted = 'Get Started';
   static const String selectAGender = 'Tap to select a gender';
-  static const String enterName = 'Enter your name here...';
+  static const String enterName = 'Enter your name here';
   static const String fillOutForm =
       'Please fill out the form on the left to get '
       'started. Ensure all required fields are completed before submitting.';
@@ -73,7 +73,7 @@ class AppStrings {
       'Lorem ipsum odor amet, consectetuer adipiscing elit. Dolor ad non dolor maecenas '
       'turpis odio pretium praesent potenti. Vivamus phasellus pretium malesuada ullamcorper '
       'lacinia mauris vel enim mollis. Interdum finibus ac magna et luctus pellentesque lacinia '
-      'lectus eget. Mi ultricies fames malesuada et montes vivamus massa malesuada. Mauris id '
+      'lectus eget. \n\nMi ultricies fames malesuada et montes vivamus massa malesuada. Mauris id '
       'neque dolor natoque nostra. Inceptos eros platea curae malesuada; natoque tellus pretium '
       'nullam.Eros aenean venenatis elementum pretium odio felis tincidunt varius hac. Etiam '
       'ultrices pellentesque dis maximus sit convallis. Tellus lacinia augue luctus fermentum; '
@@ -85,16 +85,16 @@ class AppStrings {
       'porttitor ligula lacinia nisl. Nascetur sapien amet ut pellentesque sed purus faucibus quisque '
       'ut. Litora montes curae magna consectetur consectetur varius; cursus amet. Suscipit litora porta '
       'scelerisque blandit dignissim ullamcorper? Maecenas luctus ultricies tincidunt class nam posuere '
-      'interdum? Nisl faucibus rutrum vivamus pellentesque consectetur tristique. Eu vulputate eget dapibus '
+      'interdum? \n\nNisl faucibus rutrum vivamus pellentesque consectetur tristique. Eu vulputate eget dapibus '
       'pretium feugiat dignissim. Quisque eros faucibus facilisi venenatis fringilla lobortis ante netus. '
       'Vitae venenatis at vel commodo pulvinar posuere congue condimentum. Dolor amet fames luctus fames '
       'platea per imperdiet luctus. Elementum erat nibh suspendisse sit feugiat. Lacinia justo phasellus '
       'nascetur laoreet sem. Odio ex porttitor auctor integer vestibulum malesuada mattis taciti. Convallis '
       'fringilla suscipit curae volutpat nisl taciti mollis quisque. Ante conubia erat platea nec dis blandit '
-      'nulla aliquam. Eros hac ultricies dictumst arcu porttitor fusce.Etiam lectus maecenas maximus pretium '
+      'nulla aliquam. \n\nEros hac ultricies dictumst arcu porttitor fusce.Etiam lectus maecenas maximus pretium '
       'porta auctor. Vivamus eleifend parturient dolor, praesent sem potenti conubia sapien vivamus. '
       'Dolor congue in molestie dictum; imperdiet lobortis feugiat. Vel velit convallis hac consequat morbi '
-      'finibus pellentesque. Semper torquent montes integer mi odio ac. Neque himenaeos porta scelerisque fames '
+      'finibus pellentesque. \n\nSemper torquent montes integer mi odio ac. Neque himenaeos porta scelerisque fames '
       'fermentum; pulvinar at efficitur. Efficitur velit quisque curabitur enim duis accumsan. Risus ad vehicula; '
       'tortor vulputate dapibus aliquet egestas habitasse. Dapibus sit non habitasse dui fermentum.Class potenti '
       'suscipit convallis integer sodales ridiculus nisl suspendisse nunc. Primis cras neque suspendisse pharetra '
