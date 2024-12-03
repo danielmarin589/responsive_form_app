@@ -17,6 +17,7 @@ String computeAge(DateTime birthday) {
     age--;
   }
 
+  if (age == 0) return 'Newborn';
   return '$age years';
 }
 
