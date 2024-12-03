@@ -98,7 +98,6 @@ class _MobileFormLayoutState extends State<MobileFormLayout> {
                     onDateSelected: (date) {
                       formProvider.dob = date;
                     },
-                    validator: FormValidator.validateDateOfBirth,
                   ),
                   const Gap(24),
                   Row(

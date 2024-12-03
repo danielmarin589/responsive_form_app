@@ -106,6 +106,4 @@ class AppStrings {
       'dignissim dolor pharetra. Ultrices tortor sed eleifend, proin ad mauris nibh. Conubia class iaculis integer venenatis '
       'molestie parturient porttitor. Auctor dictum varius congue nibh elit vel habitant efficitur augue. Maximus libero '
       'vivamus porttitor curae fames dui.';
-
-  static String? dateOfBirthRequired;
 }

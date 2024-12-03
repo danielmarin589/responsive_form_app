@@ -15,13 +15,6 @@ class FormValidator {
     return null;
   }
 
-  static String? validateDateOfBirth(DateTime? value) {
-    if (value == null) {
-      return AppStrings.dateOfBirthRequired;
-    }
-    return null;
-  }
-
   static String? validateTermsAccepted(bool? value) {
     if (value == null || !value) {
       return AppStrings.termsAndConditionsNeeded;

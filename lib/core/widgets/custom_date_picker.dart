@@ -9,7 +9,6 @@ class CustomDatePicker extends StatefulWidget {
   final DateTime? initialDate;
   final ValueChanged<DateTime?> onDateSelected;
   final Icon? icon;
-  final String? Function(DateTime?)? validator;
 
   const CustomDatePicker({
     required this.focusNode,
@@ -17,7 +16,6 @@ class CustomDatePicker extends StatefulWidget {
     required this.initialDate,
     required this.onDateSelected,
     this.icon,
-    this.validator,
     super.key,
   });
 
