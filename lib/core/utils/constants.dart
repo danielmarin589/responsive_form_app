@@ -107,3 +107,83 @@ class AppStrings {
       'molestie parturient porttitor. Auctor dictum varius congue nibh elit vel habitant efficitur augue. Maximus libero '
       'vivamus porttitor curae fames dui.';
 }
+
+class AppTextStyles {
+  static const TextStyle appBarStyle = TextStyle(
+    color: AppColors.mainWhite,
+    fontSize: 20,
+    fontWeight: FontWeight.w600,
+  );
+
+  static const TextStyle customFieldLabel = TextStyle(
+    fontSize: 16,
+    color: AppColors.mainBlack,
+    fontWeight: FontWeight.w600,
+  );
+
+  static const TextStyle customFieldText = TextStyle(
+    fontWeight: FontWeight.w500,
+    fontSize: 16,
+    color: AppColors.mainBlack,
+  );
+
+  static const TextStyle customFieldHint = TextStyle(
+    fontWeight: FontWeight.w400,
+    fontSize: 16,
+    color: AppColors.mainGrey,
+  );
+
+  static const TextStyle mandatoryAsterisk = TextStyle(
+    fontSize: 16,
+    color: AppColors.mainRed,
+    fontWeight: FontWeight.w600,
+  );
+
+  static const TextStyle elevatedButtonText = TextStyle(
+    color: AppColors.mainWhite,
+    fontSize: 17,
+    fontWeight: FontWeight.w600,
+  );
+
+  static const TextStyle heading1 = TextStyle(
+    fontSize: 17,
+    fontWeight: FontWeight.bold,
+  );
+
+  static const TextStyle heading2 = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w500,
+  );
+
+  static const TextStyle cardRowLabel = TextStyle(
+    color: AppColors.mainWhite,
+    fontSize: 16,
+    fontWeight: FontWeight.w600,
+  );
+
+  static const TextStyle cardRowText = TextStyle(
+    color: AppColors.mainWhite,
+    fontSize: 16,
+    fontWeight: FontWeight.w400,
+  );
+
+  static const TextStyle countdown = TextStyle(
+    color: AppColors.mainBlack,
+    fontSize: 14,
+  );
+
+  static const TextStyle alertDialogButton = TextStyle(
+    color: AppColors.mainOrange,
+    fontWeight: FontWeight.bold,
+    fontSize: 16,
+  );
+
+  static const TextStyle alertDialogTitle = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.bold,
+  );
+
+  static const TextStyle alertDialogContent = TextStyle(
+    fontSize: 15,
+  );
+}

@@ -18,31 +18,29 @@ class CustomElevatedButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
         style: ElevatedButton.styleFrom(
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(16),
-            ),
-            padding: const EdgeInsets.symmetric(
-              horizontal: 32,
-              vertical: 16,
-            ),
-            backgroundColor: AppColors.mainOrange),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          padding: const EdgeInsets.symmetric(
+            horizontal: 32,
+            vertical: 16,
+          ),
+          backgroundColor: AppColors.mainOrange,
+        ),
         onPressed: onPressed,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            if (icon != null)
+            if (icon != null) ...[
               Icon(
                 icon,
                 color: AppColors.mainWhite,
               ),
-            const Gap(16),
+              const Gap(16),
+            ],
             Text(
               text,
-              style: const TextStyle(
-                color: AppColors.mainWhite,
-                fontSize: 17,
-                fontWeight: FontWeight.w600,
-              ),
+              style: AppTextStyles.elevatedButtonText,
             ),
           ],
         ));

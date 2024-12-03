@@ -24,18 +24,11 @@ class CardRowItem extends StatelessWidget {
       const Gap(12),
       Text(
         '$label: ',
-        style: const TextStyle(
-          color: AppColors.mainWhite,
-          fontSize: 16,
-          fontWeight: FontWeight.w600,
-        ),
+        style: AppTextStyles.cardRowLabel,
       ),
       Text(
         value,
-        style: const TextStyle(
-          color: AppColors.mainWhite,
-          fontSize: 16,
-        ),
+        style: AppTextStyles.cardRowText,
       )
     ]);
   }

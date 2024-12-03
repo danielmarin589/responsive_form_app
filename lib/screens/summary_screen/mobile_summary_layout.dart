@@ -30,11 +30,7 @@ class MobileSummaryLayout extends StatelessWidget {
                   )),
               title: const Text(
                 AppStrings.summary,
-                style: TextStyle(
-                  color: AppColors.mainWhite,
-                  fontSize: 20,
-                  fontWeight: FontWeight.w600,
-                ),
+                style: AppTextStyles.appBarStyle,
               ),
               backgroundColor: isMobileResolution
                   ? AppColors.mainOrange
@@ -57,18 +53,12 @@ class MobileSummaryLayout extends StatelessWidget {
             children: [
               Text(
                 '${AppStrings.hello}, ${formProvider.name}! 👋',
-                style: const TextStyle(
-                  fontSize: 17,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: AppTextStyles.heading1,
               ),
               const Gap(8),
               const Text(
                 '${AppStrings.submittedData}: ',
-                style: TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w500,
-                ),
+                style: AppTextStyles.heading2,
               ),
               const Gap(24),
               SizedBox(
@@ -121,10 +111,7 @@ class MobileSummaryLayout extends StatelessWidget {
               const Gap(28),
               const Text(
                 AppStrings.anotherTry,
-                style: TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w500,
-                ),
+                style: AppTextStyles.heading2,
               ),
               const Gap(8),
               CustomElevatedButton(

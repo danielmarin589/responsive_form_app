@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:dartx/dartx.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:responsive_form_app/core/utils/constants.dart';
@@ -42,7 +43,7 @@ class _BirthdayCountdownWidgetState extends State<BirthdayCountdownWidget> {
 
     _updateCountdown(widget.birthday!);
 
-    _timer = Timer.periodic(const Duration(seconds: 1), (_) {
+    _timer = Timer.periodic(1.seconds, (_) {
       if (widget.birthday == null) {
         _timer.cancel();
         setState(() {
@@ -73,7 +74,8 @@ class _BirthdayCountdownWidgetState extends State<BirthdayCountdownWidget> {
     } else {
       setState(() {
         _countdown =
-            '${difference.inDays} days, ${difference.inHours % 24} hours, ${difference.inMinutes % 60} minutes, and ${difference.inSeconds % 60} seconds';
+            '${difference.inDays} days, ${difference.inHours % 24} hours, '
+            '${difference.inMinutes % 60} minutes, and ${difference.inSeconds % 60} seconds';
       });
     }
   }
@@ -93,19 +95,12 @@ class _BirthdayCountdownWidgetState extends State<BirthdayCountdownWidget> {
             children: [
               const Text(
                 AppStrings.countdownToBday,
-                style: TextStyle(
-                  color: AppColors.mainBlack,
-                  fontSize: 17,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: AppTextStyles.heading1,
               ),
               const Gap(16),
               Text(
                 _countdown,
-                style: const TextStyle(
-                  color: AppColors.mainBlack,
-                  fontSize: 14,
-                ),
+                style: AppTextStyles.countdown,
               ),
             ],
           ),

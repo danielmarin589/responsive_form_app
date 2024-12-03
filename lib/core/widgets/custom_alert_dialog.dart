@@ -36,11 +36,7 @@ class CustomAlertDialog extends StatelessWidget {
             onPressed: () => Navigator.of(context).pop(),
             child: const Text(
               AppStrings.close,
-              style: TextStyle(
-                color: AppColors.mainOrange,
-                fontWeight: FontWeight.bold,
-                fontSize: 16,
-              ),
+              style: AppTextStyles.alertDialogButton,
             ),
           ),
         ],
@@ -61,22 +57,14 @@ class CustomAlertDialog extends StatelessWidget {
             onPressed: () => Navigator.of(context).pop(false),
             child: const Text(
               AppStrings.no,
-              style: TextStyle(
-                color: AppColors.mainOrange,
-                fontWeight: FontWeight.bold,
-                fontSize: 16,
-              ),
+              style: AppTextStyles.alertDialogButton,
             ),
           ),
           TextButton(
             onPressed: () => Navigator.of(context).pop(true),
             child: const Text(
               AppStrings.yes,
-              style: TextStyle(
-                color: AppColors.mainOrange,
-                fontWeight: FontWeight.bold,
-                fontSize: 16,
-              ),
+              style: AppTextStyles.alertDialogButton,
             ),
           ),
         ],
@@ -90,21 +78,16 @@ class CustomAlertDialog extends StatelessWidget {
       insetPadding: insetPadding ?? const EdgeInsets.all(24),
       title: Text(
         title,
-        style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+        style: AppTextStyles.alertDialogTitle,
       ),
-      titlePadding: const EdgeInsets.only(
-        left: 24,
-        right: 24,
-        top: 24,
-        bottom: 8,
-      ),
+      titlePadding: const EdgeInsets.all(24).copyWith(bottom: 8),
       backgroundColor: AppColors.mainWhite,
       content: SizedBox(
         height: dialogHeight,
         child: SingleChildScrollView(
           child: Text(
             content,
-            style: const TextStyle(fontSize: 15),
+            style: AppTextStyles.alertDialogContent,
           ),
         ),
       ),

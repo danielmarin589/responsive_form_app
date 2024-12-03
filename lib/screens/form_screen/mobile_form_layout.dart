@@ -47,11 +47,7 @@ class _MobileFormLayoutState extends State<MobileFormLayout> {
                 automaticallyImplyLeading: false,
                 title: const Text(
                   AppStrings.form,
-                  style: TextStyle(
-                    color: AppColors.mainWhite,
-                    fontSize: 20,
-                    fontWeight: FontWeight.w500,
-                  ),
+                  style: AppTextStyles.appBarStyle,
                 ),
                 backgroundColor: AppColors.mainOrange)
             : null,
@@ -112,17 +108,14 @@ class _MobileFormLayoutState extends State<MobileFormLayout> {
                         child: RichText(
                           text: TextSpan(
                             text: AppStrings.agreeTo,
-                            style: const TextStyle(
-                              fontSize: 15,
-                              color: Colors.black,
-                            ),
+                            style: AppTextStyles.customFieldText,
                             children: [
                               TextSpan(
                                 text:
                                     '${AppStrings.termsAndConditions.toLowerCase()}.',
-                                style: const TextStyle(
-                                  fontSize: 15,
+                                style: AppTextStyles.customFieldText.copyWith(
                                   color: AppColors.mainOrange,
+                                  fontWeight: FontWeight.w600,
                                 ),
                                 recognizer: TapGestureRecognizer()
                                   ..onTap = () {

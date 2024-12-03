@@ -34,29 +34,25 @@ class CustomDropdown extends StatelessWidget {
           Row(children: [
             Text(
               labelText,
-              style: const TextStyle(
-                fontSize: 16,
-                color: Colors.black,
-                fontWeight: FontWeight.w600,
-              ),
+              style: AppTextStyles.customFieldLabel,
             ),
             const Text(
               '*',
-              style: TextStyle(
-                fontSize: 16,
-                color: AppColors.mainRed,
-                fontWeight: FontWeight.w600,
-              ),
+              style: AppTextStyles.mandatoryAsterisk,
             ),
           ]),
           const Gap(4),
           DropdownButtonFormField<String>(
-            hint: const Text(AppStrings.selectAGender),
+            style: AppTextStyles.customFieldText,
+            hint: const Text(
+              AppStrings.selectAGender,
+              style: AppTextStyles.customFieldHint,
+            ),
             dropdownColor: AppColors.mainWhite,
             autovalidateMode: AutovalidateMode.onUserInteraction,
             icon: const Icon(
               Icons.keyboard_arrow_down,
-              color: Colors.black,
+              color: AppColors.mainBlack,
             ),
             focusNode: focusNode,
             decoration: InputDecoration(
@@ -74,7 +70,7 @@ class CustomDropdown extends StatelessWidget {
               enabledBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(12),
                 borderSide: const BorderSide(
-                  color: Colors.grey,
+                  color: AppColors.mainGrey,
                 ),
               ),
               errorBorder: OutlineInputBorder(

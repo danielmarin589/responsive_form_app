@@ -35,28 +35,17 @@ class CustomTextField extends StatelessWidget {
           children: [
             Text(
               labelText,
-              style: const TextStyle(
-                fontSize: 16,
-                color: Colors.black,
-                fontWeight: FontWeight.w600,
-              ),
+              style: AppTextStyles.customFieldLabel,
             ),
             const Text(
               '*',
-              style: TextStyle(
-                fontSize: 16,
-                color: AppColors.mainRed,
-                fontWeight: FontWeight.w600,
-              ),
+              style: AppTextStyles.mandatoryAsterisk,
             ),
           ],
         ),
         const Gap(4),
         TextFormField(
-          style: const TextStyle(
-            fontWeight: FontWeight.w500,
-            fontSize: 16,
-          ),
+          style: AppTextStyles.customFieldText,
           maxLength: maxLength,
           autovalidateMode: AutovalidateMode.onUserInteraction,
           autocorrect: false,
@@ -66,6 +55,7 @@ class CustomTextField extends StatelessWidget {
           decoration: InputDecoration(
             counterText: '',
             hintText: hintText,
+            hintStyle: AppTextStyles.customFieldHint,
             prefixIcon: icon,
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(12),
@@ -81,7 +71,6 @@ class CustomTextField extends StatelessWidget {
               borderRadius: BorderRadius.circular(12),
               borderSide: const BorderSide(
                 color: AppColors.mainGrey,
-                width: 1.0,
               ),
             ),
             errorBorder: OutlineInputBorder(

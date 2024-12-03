@@ -86,19 +86,11 @@ class CustomDatePickerState extends State<CustomDatePicker> {
         Row(children: [
           Text(
             widget.labelText,
-            style: const TextStyle(
-              fontSize: 16,
-              color: Colors.black,
-              fontWeight: FontWeight.w600,
-            ),
+            style: AppTextStyles.customFieldLabel,
           ),
           const Text(
             '*',
-            style: TextStyle(
-              fontSize: 16,
-              color: AppColors.mainRed,
-              fontWeight: FontWeight.w600,
-            ),
+            style: AppTextStyles.mandatoryAsterisk,
           ),
         ]),
         const Gap(4),
@@ -108,6 +100,7 @@ class CustomDatePickerState extends State<CustomDatePicker> {
             widget.focusNode.requestFocus();
           },
           child: TextFormField(
+            style: AppTextStyles.customFieldText,
             autovalidateMode: AutovalidateMode.onUserInteraction,
             readOnly: true,
             onTapOutside: (event) => widget.focusNode.unfocus(),
@@ -116,6 +109,7 @@ class CustomDatePickerState extends State<CustomDatePicker> {
             decoration: InputDecoration(
               prefixIcon: widget.icon,
               hintText: AppStrings.selectADate,
+              hintStyle: AppTextStyles.customFieldHint,
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(12),
               ),
