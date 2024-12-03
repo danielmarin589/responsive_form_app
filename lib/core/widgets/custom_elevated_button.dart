@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:test_tehnic_flaminjoy/core/utils/constants.dart';
+import 'package:responsive_form_app/core/utils/constants.dart';
 
 class CustomElevatedButton extends StatelessWidget {
   final String text;

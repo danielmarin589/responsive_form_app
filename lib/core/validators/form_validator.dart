@@ -1,4 +1,4 @@
-import 'package:test_tehnic_flaminjoy/core/utils/constants.dart';
+import 'package:responsive_form_app/core/utils/constants.dart';
 
 class FormValidator {
   static String? validateName(String? value) {

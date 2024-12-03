@@ -1,4 +1,4 @@
-package com.example.test_tehnic_flaminjoy
+package com.example.responsive_form_app
 
 import io.flutter.embedding.android.FlutterActivity
 

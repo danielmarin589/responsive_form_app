@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
-import 'package:test_tehnic_flaminjoy/core/utils/constants.dart';
+import 'package:responsive_form_app/core/utils/constants.dart';
 
 class CustomSnackbar {
   static void showError(

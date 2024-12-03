@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:test_tehnic_flaminjoy/core/widgets/custom_alert_dialog.dart';
-import 'package:test_tehnic_flaminjoy/providers/form_provider.dart';
-import 'package:test_tehnic_flaminjoy/screens/form_screen/form_screen.dart';
+import 'package:responsive_form_app/core/widgets/custom_alert_dialog.dart';
+import 'package:responsive_form_app/providers/form_provider.dart';
+import 'package:responsive_form_app/screens/form_screen/form_screen.dart';
 
 String formatDateForm(DateTime date) => DateFormat('dd/MM/yyyy').format(date);
 

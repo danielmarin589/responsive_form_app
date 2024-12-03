@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
-import 'package:test_tehnic_flaminjoy/core/utils/constants.dart';
-import 'package:test_tehnic_flaminjoy/providers/form_provider.dart';
-import 'package:test_tehnic_flaminjoy/screens/form_screen/form_screen.dart';
-import 'package:test_tehnic_flaminjoy/screens/summary_screen/summary_screen.dart';
+import 'package:responsive_form_app/core/utils/constants.dart';
+import 'package:responsive_form_app/providers/form_provider.dart';
+import 'package:responsive_form_app/screens/form_screen/form_screen.dart';
+import 'package:responsive_form_app/screens/summary_screen/summary_screen.dart';
 
 void main() {
   runApp(

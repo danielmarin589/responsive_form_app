@@ -2,16 +2,16 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:provider/provider.dart';
-import 'package:test_tehnic_flaminjoy/core/utils/constants.dart';
-import 'package:test_tehnic_flaminjoy/core/utils/helpers.dart';
-import 'package:test_tehnic_flaminjoy/core/validators/form_validator.dart';
-import 'package:test_tehnic_flaminjoy/core/widgets/custom_alert_dialog.dart';
-import 'package:test_tehnic_flaminjoy/core/widgets/custom_date_picker.dart';
-import 'package:test_tehnic_flaminjoy/core/widgets/custom_dropdown.dart';
-import 'package:test_tehnic_flaminjoy/core/widgets/custom_elevated_button.dart';
-import 'package:test_tehnic_flaminjoy/core/widgets/custom_snackbar.dart';
-import 'package:test_tehnic_flaminjoy/core/widgets/custom_text_field.dart';
-import 'package:test_tehnic_flaminjoy/screens/summary_screen/summary_screen.dart';
+import 'package:responsive_form_app/core/utils/constants.dart';
+import 'package:responsive_form_app/core/utils/helpers.dart';
+import 'package:responsive_form_app/core/validators/form_validator.dart';
+import 'package:responsive_form_app/core/widgets/custom_alert_dialog.dart';
+import 'package:responsive_form_app/core/widgets/custom_date_picker.dart';
+import 'package:responsive_form_app/core/widgets/custom_dropdown.dart';
+import 'package:responsive_form_app/core/widgets/custom_elevated_button.dart';
+import 'package:responsive_form_app/core/widgets/custom_snackbar.dart';
+import 'package:responsive_form_app/core/widgets/custom_text_field.dart';
+import 'package:responsive_form_app/screens/summary_screen/summary_screen.dart';
 import '../../providers/form_provider.dart';
 
 class MobileFormLayout extends StatefulWidget {

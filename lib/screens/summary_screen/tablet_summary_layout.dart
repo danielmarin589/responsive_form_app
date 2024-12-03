@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_tehnic_flaminjoy/core/utils/constants.dart';
+import 'package:responsive_form_app/core/utils/constants.dart';
 import 'mobile_summary_layout.dart';
 
 class TabletSummaryLayout extends StatelessWidget {

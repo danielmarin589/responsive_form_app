@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:provider/provider.dart';
-import 'package:test_tehnic_flaminjoy/core/utils/constants.dart';
-import 'package:test_tehnic_flaminjoy/core/utils/helpers.dart';
-import 'package:test_tehnic_flaminjoy/core/widgets/custom_elevated_button.dart';
-import 'package:test_tehnic_flaminjoy/screens/summary_screen/widgets/birthday_countdown_widget.dart';
-import 'package:test_tehnic_flaminjoy/screens/summary_screen/widgets/card_row_item.dart';
+import 'package:responsive_form_app/core/utils/constants.dart';
+import 'package:responsive_form_app/core/utils/helpers.dart';
+import 'package:responsive_form_app/core/widgets/custom_elevated_button.dart';
+import 'package:responsive_form_app/screens/summary_screen/widgets/birthday_countdown_widget.dart';
+import 'package:responsive_form_app/screens/summary_screen/widgets/card_row_item.dart';
 import '../../providers/form_provider.dart';
 
 class MobileSummaryLayout extends StatelessWidget {
