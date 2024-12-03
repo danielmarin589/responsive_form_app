@@ -1,16 +1,41 @@
-# responsive_form_app
+# Responsive Form App
 
-A new Flutter project.
+A simple Flutter app that is responsive on mobile, tablet, and web. It is designed exclusively for portrait orientation.
 
-## Getting Started
+The app includes:
 
-This project is a starting point for a Flutter application.
+A form with validations.
+A summary screen where you can review previously entered data.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## **Steps Needed to Run the Project**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### **Step 1: Clone the Repository**
+1. Open a terminal or Git Bash.
+2. Run the following command:
+   ```bash
+   git clone https://github.com/danielmarin589/responsive_form_app.git
+   ```
+3. Navigate to the project directory:
+   ```bash
+   cd responsive_form_app
+   ```
+
+---
+
+### **Step 2: Install Dependencies**
+Run the following command to install all necessary packages:
+```bash
+flutter pub get
+```
+
+---
+
+### **Step 3: Run the App**
+1. Connect a physical device via USB or start an emulator.
+2. Run the following command to launch the app:
+   ```bash
+   flutter run
+   ```
+
