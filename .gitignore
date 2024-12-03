@@ -1,0 +1,21 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.idea/
+
+# Build outputs
+build/
+ios/Pods/
+android/.gradle/
+android/app/*.keystore
+android/local.properties
+
+# IDE-specific
+*.iml
+*.ipr
+*.iws
+.vscode/
